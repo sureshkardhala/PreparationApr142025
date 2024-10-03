@@ -1,10 +1,8 @@
 package MultiThreading;
-import java.lang.Thread;
+import  java.lang.Thread;
 
-
-public class Thread1 extends Thread{
-
-    public Thread1(String threadName){
+public class Thread2 extends Thread{
+    public Thread2(String threadName){
         super(threadName);
     }
 
@@ -14,4 +12,5 @@ public class Thread1 extends Thread{
             System.out.println("Inside" + Thread.currentThread()+ " "+ i);
         }
     }
+
 }
